@@ -1,0 +1,36 @@
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+@for $i from 1 through 10 {
+    .m{
+        &l{
+            &-#{$i*10}{
+                margin-left: $i*10px;
+            }
+        }
+        &t{
+            &-#{$i*10}{
+                margin-top: $i*10px;
+            }
+        }
+        &b{
+            &-#{$i*10}{
+                margin-bottom: $i*10px;
+            }
+        }
+        &r{
+            &-#{$i*10}{
+                margin-right: $i*10px;
+            }
+        }
+    }
+}

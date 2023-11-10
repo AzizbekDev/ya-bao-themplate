@@ -1,10 +1,36 @@
 header.header
+    .container.d-flex.align-items-center
+        a.logo(href="index.html")
+            img(src="./assets/img/logo.svg", alt="Ya Bao")
+            .logo__info
+                .logo__title YA BAO
+                .logo__slogan Дух китайской еды
+        .header__location 
+            .header__location--top.d-flex.flex-wrap
+                .header__location--title Доставка пасты
+                .header__location--place Москва
+            .header__location--bottom 
+                .header__location--time Время доставки
+                .header__circle 
+                .header__location--value от 31 мин
+        button.header__call.ml-a Заказать звонок
+        a.header__phone.purple(href="#") 8 800 333-36-62 
+navbar.nav 
     .container
-        .row 
-            ul.header_list
-                li: a(href="index.html") Asosiy Sahifa
-                li: a(href="index.html") 
-                li: a(href="index.html") Asosiy Sahifa
-                li: a(href="index.html") Asosiy Sahifa
-                li: a(href="index.html") Asosiy Sahifa
-                li: a(href="index.html") Asosiy Sahifa
+        ul.nav__list 
+            li: a.link(href="#") Паста
+            li: a.link(href="#") Супы
+            li: a.link(href="#") Салаты
+            li: a.link(href="#") Антипасти
+            li: a.link(href="#") Напитки
+            li: a.link(href="#") Десерты
+            li: a.link(href="#") Бакалея
+            li: a.link(href="#") Акции
+            li: a.link(href="#") Комбо
+            li: a.link(href="#") Контакты
+        button.nav__auth Войти
+        button.nav__card 
+            .nav__card--title Корзина
+            .nav__card--count 1
+
+                                             
