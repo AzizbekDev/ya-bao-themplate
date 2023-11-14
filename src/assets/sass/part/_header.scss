@@ -1,7 +1,103 @@
 .header {
+    padding: 8px 0;
     .logo {
+        margin-right: 51px;
         img {
             margin-right: 14px;
+        }
+        &__title {
+            font-size: 39px;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+        &__slogan {
+            font-size: 9.3px;
+            font-weight: 600;
+        }
+    }
+    &__location {
+        font-weight: 600;
+        &--title {
+            margin-right: 8px;
+        }
+        &--bottom {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    }
+    &__circle { 
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: $purple;
+        margin: 0 6px;
+    }
+    &__call {
+        background-color: $gray;
+        padding: 7px 28px;
+        border-radius: 28px;
+        color: $noactive;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 28px;
+        &:hover {
+            background: $purple;
+            color: #fff;
+        }
+    }
+    &__phone {
+        font-size: 26px;
+        font-weight: 700;
+        margin-left: 26px;
+        &:hover {
+            color: darken($purple, 10%);
+        }
+    }
+}
+.nav {
+    &__list {
+        gap: 20px;
+        .link{
+            font-size: 15px;
+            color: $black;
+            font-weight: 600;
+            &:hover {
+                color: $purple;
+            }
+        }
+    }
+    &__auth {
+        color: $noactive;
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 30px;
+        background: unset;
+        margin-left: auto;
+    }
+    &__card {
+        padding: 7px 25px;
+        border-radius: 8px;
+        background-color: $purple;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        line-height: 28px;
+        &:hover {
+            background-color: darken($purple, 10%);
+        }
+        &--title {
+           @include center;
+            &:after {
+                content: '';
+                width: 2px;
+                height: 23px;
+                border-radius: 5px;
+                background-color: #fff;
+                display: inline-block;
+                margin-left: 11px;
+                margin-right: 18px;
+            }
         }
     }
 }

@@ -1,0 +1,29 @@
+.news{
+    margin-bottom: 51px;
+    position: relative;
+    &__el {
+        position: absolute;
+        top: 10px;
+        left: -68px;
+        z-index: -1;
+    }
+    &__box {
+        background: #fff;
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        padding: 14px 17px;
+        gap: 25px;
+        transition: 0.5s;
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+        }
+    }
+    .price {
+        font-size: 16px;
+        color: $purple;
+        margin-top: 4px;
+    }
+}

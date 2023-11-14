@@ -34,3 +34,41 @@
         }
     }
 }
+
+@for $i from 1 through 12 {
+    .col-#{$i}{
+        @include fb(percentage($i/12))
+    }
+}
+
+@media (max-width: 1024px) {
+    @for $i from 1 through 12 {
+        .col-lg-#{$i}{
+            @include fb(percentage($i/12))
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    @for $i from 1 through 12 {
+        .col-md-#{$i}{
+            @include fb(percentage($i/12))
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    @for $i from 1 through 12 {
+        .col-sm-#{$i}{
+            @include fb(percentage($i/12))
+        }
+    }
+}
+
+@media (max-width: 275px) {
+    @for $i from 1 through 12 {
+        .col-xs-#{$i}{
+            @include fb(percentage($i/12))
+        }
+    }
+}

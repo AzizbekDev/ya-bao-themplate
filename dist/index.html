@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YA BAO</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
   </head>
   <body>
     <header class="header">
@@ -17,20 +17,20 @@
         <div class="header__location"> 
           <div class="header__location--top d-flex flex-wrap">
             <div class="header__location--title">Доставка пасты</div>
-            <div class="header__location--place">Москва</div>
+            <div class="header__location--place purple">Москва</div>
           </div>
-          <div class="header__location--bottom"> 
+          <div class="header__location--bottom d-flex flex-wrap align-items-center">
             <div class="header__location--time">Время доставки</div>
             <div class="header__circle"> </div>
             <div class="header__location--value">от 31 мин</div>
           </div>
         </div>
-        <button class="header__call ml-a">Заказать звонок</button><a class="header__phone purple" href="#">8 800 333-36-62 </a>
+        <button class="header__call ml-a">Заказать звонок</button><a class="header__phone purple" href="#">8 800 333-36-62</a>
       </div>
     </header>
     <navbar class="nav"> 
-      <div class="container">
-        <ul class="nav__list"> 
+      <div class="container d-flex align-items-center flex-wrap">
+        <ul class="nav__list d-flex align-items-center flex-wrap">
           <li><a class="link" href="#">Паста</a></li>
           <li><a class="link" href="#">Супы</a></li>
           <li><a class="link" href="#">Салаты</a></li>
@@ -49,9 +49,332 @@
         </button>
       </div>
     </navbar>
-    <section class="wrapper"> 
-      <h1>Block content part</h1>
+    <section class="splide slider" id="slider">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide"><img src="./assets/img/slider1.jpg" alt=""></li>
+          <li class="splide__slide"><img src="./assets/img/slider1.jpg" alt=""></li>
+          <li class="splide__slide"><img src="./assets/img/slider1.jpg" alt=""></li>
+        </ul>
+      </div>
     </section>
+    <div class="container">
+      <div class="quotes">
+        <div class="title">Отзывы</div>
+        <div class="quotes__row">
+          <div class="quote"><img src="./assets/img/avatar.png" alt=""/>
+            <div class="name">lauria_gog</div>
+          </div>
+          <div class="quote"><img src="./assets/img/avatar.png" alt=""/>
+            <div class="name">lauria_gog</div>
+          </div>
+          <div class="quote"><img src="./assets/img/avatar.png" alt=""/>
+            <div class="name">lauria_gog</div>
+          </div>
+          <div class="quote"><img src="./assets/img/avatar.png" alt=""/>
+            <div class="name">lauria_gog</div>
+          </div>
+          <div class="quote"><img src="./assets/img/avatar.png" alt=""/>
+            <div class="name">lauria_gog</div>
+          </div>
+          <div class="quote"><img src="./assets/img/avatar.png" alt=""/>
+            <div class="name">lauria_gog</div>
+          </div>
+          <div class="quote"><img src="./assets/img/avatar.png" alt=""/>
+            <div class="name">lauria_gog</div>
+          </div>
+          <div class="quote"><img src="./assets/img/avatar.png" alt=""/>
+            <div class="name">lauria_gog</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      <div class="news"><img class="news__el" src="./assets/img/element.png" alt="">
+        <div class="title">Новинки</div>
+        <div class="row"> 
+          <div class="col-3 col-md-6"> <a class="news__box" href="#"> <img src="./assets/img/miniproduct.jpg" alt=""/>
+              <div class="info">
+                <div class="name">Карбонара</div>
+                <div class="price">от 120 ₽</div>
+              </div></a>
+          </div>
+          <div class="col-3 col-md-6"> <a class="news__box" href="#"> <img src="./assets/img/miniproduct.jpg" alt=""/>
+              <div class="info">
+                <div class="name">Карбонара</div>
+                <div class="price">от 120 ₽</div>
+              </div></a>
+          </div>
+          <div class="col-3 col-md-6"> <a class="news__box" href="#"> <img src="./assets/img/miniproduct.jpg" alt=""/>
+              <div class="info">
+                <div class="name">Карбонара</div>
+                <div class="price">от 120 ₽</div>
+              </div></a>
+          </div>
+          <div class="col-3 col-md-6"> <a class="news__box" href="#"> <img src="./assets/img/miniproduct.jpg" alt=""/>
+              <div class="info">
+                <div class="name">Карбонара</div>
+                <div class="price">от 120 ₽</div>
+              </div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      <div class="title large">Паста</div>
+      <div class="row">
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      <div class="title large">Паста</div>
+      <div class="row">
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      <div class="title large">Паста</div>
+      <div class="row">
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-6 col-sm-12">
+          <div class="product"> 
+            <div class="status">NEW</div><img src="./assets/img/product3.jpg" alt=""/><a class="title" href="">С креветками и трюфелями</a>
+            <div class="text">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</div>
+            <div class="product__bottom">
+              <div class="price">от 600 ₽</div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="footer"> 
       <div class="container"> 
         <div class="row"> 
@@ -61,5 +384,7 @@
         </div>
       </div>
     </footer>
+    <script src="./assets/js/splide.min.js"> </script>
+    <script src="./assets/js/app.min.js"> </script>
   </body>
 </html>

@@ -12,8 +12,13 @@ body {
     font-size: 18px;
 }
 
+@import './part/splide.min.scss';
 @import './part/var';
 @import './part/class';
 @import './part/tag';
 @import './part/header';
 @import './part/grid';
+@import './part/slider';
+@import './part/quote';
+@import './part/news';
+@import './part/product'

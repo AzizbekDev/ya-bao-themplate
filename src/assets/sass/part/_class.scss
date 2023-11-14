@@ -46,7 +46,22 @@
     color: $blue;
 }
 
-
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: $price;
+    &.large {
+        font-size: 30px;
+        color: $purple;
+    }
+    &.big {
+        font-size: 44px;
+        span {
+            color: $purple;
+        }
+    }
+}
 // $purple: #FF2E65;
 // $black: #0E0C0D;
 // $blue: #E3ECF5;
