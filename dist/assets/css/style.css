@@ -44,16 +44,16 @@ body {
     text-align: right;
 }
 
+.mt-a {
+    margin-top: auto;
+}
+
 .ml-a {
     margin-left: auto;
 }
 
 .mr-a {
     margin-right: auto;
-}
-
-.mt-a {
-    margin-top: auto;
 }
 
 .mb-a {
@@ -88,7 +88,7 @@ button {
 }
 
 button:focus {
-    overflow: unset;
+    outline: unset;
 }
 
 .header .logo img {
