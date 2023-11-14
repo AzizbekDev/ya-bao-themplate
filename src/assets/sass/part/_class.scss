@@ -23,14 +23,14 @@
     text-align: right;
 }
 .m {
+    &t-a {
+        margin-top: auto;
+    }
     &l-a {
         margin-left: auto;
     }
     &r-a {
         margin-right: auto;
-    }
-    &t-a {
-        margin-top: auto;
     }
     &b-a {
         margin-bottom: auto;

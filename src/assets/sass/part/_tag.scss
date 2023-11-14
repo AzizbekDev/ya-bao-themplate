@@ -12,6 +12,6 @@ button {
     border: 0;
     cursor: pointer;
     &:focus {
-        overflow: unset;
+        outline: unset;
     }
 }
