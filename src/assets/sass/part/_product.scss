@@ -22,7 +22,10 @@
         font-weight: 800;
         margin-bottom: 18px;
         line-height: 20px;
-        display: inline-block;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
         &:hover{
             color: $purple;
         }
@@ -33,6 +36,10 @@
         line-height: 19px;
         font-size: 13px;
         margin-bottom: 23px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
     }
     &__bottom {
         display: flex;

@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+    .nav {
+        &__list {
+            gap: 15px;
+        }
+    }
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

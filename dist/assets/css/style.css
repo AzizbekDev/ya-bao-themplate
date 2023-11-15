@@ -1525,7 +1525,10 @@ ul {
     font-weight: 800;
     margin-bottom: 18px;
     line-height: 20px;
-    display: inline-block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .product .title:hover {
@@ -1538,6 +1541,10 @@ ul {
     line-height: 19px;
     font-size: 13px;
     margin-bottom: 23px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .product__bottom {
@@ -1708,4 +1715,15 @@ ul {
 
 .blog .more:hover {
     background-color: #fa0042;
+}
+
+@media (max-width: 1024px) {
+    .nav__list {
+        gap: 15px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
