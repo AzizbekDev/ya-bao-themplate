@@ -13,8 +13,16 @@ mixin product
         .product 
             .status NEW
             img(src="./assets/img/product3.jpg", alt="")
-            a.title(href="") С креветками и трюфелями
+            a.title(href="#") С креветками и трюфелями
             .text Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г
             .product__bottom
                 .price от 600 ₽
                 button В корзину
+mixin blog 
+    .col-4.col-md-6.col-sm-12 
+        .blog 
+            a.poster(href="#"): img(src="./assets/img/photo1.jpg", alt="")
+            .content 
+                a.title(href="#") Дарим кибер-призы
+                .text Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                a.more(href="#") Посмотреть
