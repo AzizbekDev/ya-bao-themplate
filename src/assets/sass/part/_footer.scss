@@ -98,6 +98,9 @@
         color: $purple;
         margin-bottom: 19px;
         display: block;
+        &:hover {
+            color: darken($purple, 10%);
+        }
     }
     .address {
         font-size: 26px;
